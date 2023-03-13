@@ -197,12 +197,27 @@ section {padding: 80px 0;}
 
 
 
+.testimonial {background-color: var(--theme-light-gray); margin-bottom: -3rem !important;}
+.usericon { margin: 0 auto 30px auto; background-color: var(--theme-sky); width: 80px; height: 80px; display: flex; align-items: center; justify-content: center;}
+.testimonial h5 {text-transform: uppercase; font-weight: bold;}
+.testimonial .owl-carousel .item {max-width: 600px; margin: 40px auto; position: relative;}
+/* .testimonial .owl-carousel .item::before {font-size: 60px; color: rgba(0,0,0,.7); content: '\f10d'; font-family:"Font Awesome 6 Free"; position: absolute; z-index: -1; font-size: 75px; } */
+
+
+footer {background-color: var(--theme-gray);}
+.securesction {background-color: var(--theme-black); color: #fff; padding: 0; }
+.flogo {max-width: 180px !important;}
+.securesction .box {background-color: transparent; flex-direction: column; text-align: center; padding: 20px;}
+.securesction .box i {font-size: 40px; color: rgba(255, 255, 255, 0.7)}
+.securesction .box h5 {text-transform: uppercase; font-weight: 600;}
+
+footer ul, .securelist {list-style: none; padding: 0;}
+.securelist li {border-right: 1px solid rgba(255, 255, 255, 0.2);}
+.securelist li:last-child {border-right: 0px solid rgba(255, 255, 255, 0.2);}
 
 
 
-
-
-.copyright {font-size: 14px; text-align: center;}
+.copyright {font-size: 14px; text-align: center; margin-bottom: 30px;}
 .hide {position: absolute;transform: scale(0);}
 
 /* 

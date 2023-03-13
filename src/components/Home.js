@@ -9,9 +9,47 @@ const Home = () => {
 
       <section className="overview">
         <div className="container">
+
+
+        <div className="row mb-5">
+            <div className="col-sm-6 col-lg-3">
+                <div className="features">
+                  <div className="icon-circle"><img className="img-icon" src={"assets/images/svgs/regular/user.svg"} alt="icon" /> </div>
+                  <h3>The Lowest Cost of Printing </h3>
+                  <p>Curabitur eget turpis iaculis eleifend. Curabitur consectetur fermentum ante</p>
+                </div>
+            </div>
+
+            <div className="col-sm-6 col-lg-3">
+                <div className="features">
+                  <div className="icon-circle"><img className="img-icon" src={"assets/images/svgs/regular/user.svg"} alt="icon" /> </div>
+                  <h3>Graphic Designers</h3>
+                  <p>Curabitur eget turpis iaculis eleifend. Curabitur consectetur fermentum ante</p>
+                </div>
+            </div>
+
+            <div className="col-sm-6 col-lg-3">
+                <div className="features">
+                  <div className="icon-circle"><img className="img-icon" src={"assets/images/svgs/regular/user.svg"} alt="icon" /> </div>
+                  <h3>High Resolution Grade Quality</h3>
+                  <p>Curabitur eget turpis iaculis eleifend. Curabitur consectetur fermentum ante</p>
+                </div>
+            </div>
+
+            <div className="col-sm-6 col-lg-3">
+                <div className="features">
+                  <div className="icon-circle"><img className="img-icon" src={"assets/images/svgs/regular/user.svg"} alt="icon" /> </div>
+                  <h3>Fast & Free Delivery</h3>
+                  <p>Curabitur eget turpis iaculis eleifend. Curabitur consectetur fermentum ante</p>
+                </div>
+            </div>
+
+
+
+          </div>
         
 
-          <div className="row g-lg-5 g-md-5 mb-5">
+          <div className="row g-lg-5 g-md-5">
           <div className="col-sm-12 col-lg-6">
               <img
                 className="img-fluid rounded-3"
@@ -48,42 +86,7 @@ const Home = () => {
           </div>
 
 
-          <div className="row">
-            <div className="col-sm-6 col-lg-3">
-                <div className="features">
-                  <div className="icon-circle"><img className="img-icon" src={"assets/images/svgs/regular/user.svg"} alt="icon" /> </div>
-                  <h3>The Lowest Cost of Printing </h3>
-                  <p>Curabitur eget turpis iaculis eleifend. Curabitur consectetur fermentum ante</p>
-                </div>
-            </div>
-
-            <div className="col-sm-6 col-lg-3">
-                <div className="features">
-                  <div className="icon-circle"><img className="img-icon" src={"assets/images/svgs/regular/user.svg"} alt="icon" /> </div>
-                  <h3>Graphic Designers</h3>
-                  <p>Curabitur eget turpis iaculis eleifend. Curabitur consectetur fermentum ante</p>
-                </div>
-            </div>
-
-            <div className="col-sm-6 col-lg-3">
-                <div className="features">
-                  <div className="icon-circle"><img className="img-icon" src={"assets/images/svgs/regular/user.svg"} alt="icon" /> </div>
-                  <h3>High Resolution Grade Quality</h3>
-                  <p>Curabitur eget turpis iaculis eleifend. Curabitur consectetur fermentum ante</p>
-                </div>
-            </div>
-
-            <div className="col-sm-6 col-lg-3">
-                <div className="features">
-                  <div className="icon-circle"><img className="img-icon" src={"assets/images/svgs/regular/user.svg"} alt="icon" /> </div>
-                  <h3>Fast & Free Delivery</h3>
-                  <p>Curabitur eget turpis iaculis eleifend. Curabitur consectetur fermentum ante</p>
-                </div>
-            </div>
-
-
-
-          </div>
+         
 
 
 
@@ -172,28 +175,58 @@ const Home = () => {
 
       <section className="secure">
           <div className="container">
+          <div className="heading text-center">
+                <span className="subtitle">Features</span>
+                <h2>
+                  Print 
+                  <span> Catagories</span>
+                </h2>
+                <span className="dot1"></span> <span className="dot1"></span>
+                <span className="dot1"></span>
+                <span className="dot"></span>
+              </div>
+
+
               <div className="row">
-                <div className="col-12 col-sm-4">
-                    <div className="box">
-                      <div className="mb-5"><i className="fas fa-thumbs-up"></i> </div>
-                      <h3>Services Excellence</h3>
-                      <p>A real live person will always answer our phones. We do not use auto attendants during business hours.</p>
+                <div className="col-12 col-sm-4  mb-5">
+                    <div className="catImg">
+                      <img className="img-fluid mb-4" src={"assets/images/Brochure.jpeg"} alt="image" /> 
+                      <h4>Brochure Printing</h4>
                     </div>
                 </div>
 
-                <div className="col-12 col-sm-4">
-                    <div className="box">
-                      <div className="mb-5"><i className="fas fa-thumbs-up"></i> </div>
-                      <h3>100% CUSTOMER GUARANTEE</h3>
-                      <p>We promise that you will love our products and services or we will make it right. Since 2014 we have been delivering on our promise</p>
+                <div className="col-12 col-sm-4  mb-5">
+                    <div className="catImg">
+                      <img className="img-fluid mb-4" src={"assets/images/Brochure.jpeg"} alt="image" /> 
+                      <h4>Business Card</h4>
                     </div>
                 </div>
 
-                <div className="col-12 col-sm-4">
-                    <div className="box">
-                      <div className="mb-5"><i className="fas fa-thumbs-up"></i> </div>
-                      <h3>Secure Payments</h3>
-                      <p>Your Payment information is not stored in any of our systems and we do not have access to it.</p>
+                <div className="col-12 col-sm-4  mb-5">
+                    <div className="catImg">
+                      <img className="img-fluid mb-4" src={"assets/images/Brochure.jpeg"} alt="image" /> 
+                      <h4>T-shirt Printing</h4>
+                    </div>
+                </div>
+
+                <div className="col-12 col-sm-4  mb-5">
+                    <div className="catImg">
+                      <img className="img-fluid mb-4" src={"assets/images/Brochure.jpeg"} alt="image" /> 
+                      <h4>Brochure Printing</h4>
+                    </div>
+                </div>
+
+                <div className="col-12 col-sm-4 mb-5">
+                    <div className="catImg">
+                      <img className="img-fluid mb-4" src={"assets/images/Brochure.jpeg"} alt="image" /> 
+                      <h4>Business Card</h4>
+                    </div>
+                </div>
+
+                <div className="col-12 col-sm-4  mb-5">
+                    <div className="catImg">
+                      <img className="img-fluid mb-4" src={"assets/images/Brochure.jpeg"} alt="image" /> 
+                      <h4>T-shirt Printing</h4>
                     </div>
                 </div>
 
@@ -204,7 +237,21 @@ const Home = () => {
 
       <section className="testimonial">
         <div className="container">
-         <OwlTest />
+
+              <div className="heading text-center">
+                <span className="subtitle">Overview</span>
+                <h2>
+                Client
+                  <span> Testimonial</span>
+                </h2>
+                <span className="dot1"></span> <span className="dot1"></span>
+                <span className="dot1"></span>
+                <span className="dot"></span>
+              </div>
+
+            <div className="testwrap text-center">
+            <OwlTest />
+            </div>
         </div>
       </section>
 
