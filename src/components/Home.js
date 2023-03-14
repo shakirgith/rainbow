@@ -13,7 +13,7 @@ const Home = () => {
 
         <div className="row mb-5">
             <div className="col-sm-6 col-lg-3">
-                <div className="features">
+                <div className="features teal-color">
                   <div className="icon-circle"><img className="img-icon" src={"assets/images/svgs/regular/user.svg"} alt="icon" /> </div>
                   <h3>The Lowest Cost of Printing </h3>
                   <p>Curabitur eget turpis iaculis eleifend. Curabitur consectetur fermentum ante</p>
@@ -21,7 +21,7 @@ const Home = () => {
             </div>
 
             <div className="col-sm-6 col-lg-3">
-                <div className="features">
+                <div className="features perple-color">
                   <div className="icon-circle"><img className="img-icon" src={"assets/images/svgs/regular/user.svg"} alt="icon" /> </div>
                   <h3>Graphic Designers</h3>
                   <p>Curabitur eget turpis iaculis eleifend. Curabitur consectetur fermentum ante</p>
@@ -29,7 +29,7 @@ const Home = () => {
             </div>
 
             <div className="col-sm-6 col-lg-3">
-                <div className="features">
+                <div className="features yellow-color">
                   <div className="icon-circle"><img className="img-icon" src={"assets/images/svgs/regular/user.svg"} alt="icon" /> </div>
                   <h3>High Resolution Grade Quality</h3>
                   <p>Curabitur eget turpis iaculis eleifend. Curabitur consectetur fermentum ante</p>
@@ -37,7 +37,7 @@ const Home = () => {
             </div>
 
             <div className="col-sm-6 col-lg-3">
-                <div className="features">
+                <div className="features red-color">
                   <div className="icon-circle"><img className="img-icon" src={"assets/images/svgs/regular/user.svg"} alt="icon" /> </div>
                   <h3>Fast & Free Delivery</h3>
                   <p>Curabitur eget turpis iaculis eleifend. Curabitur consectetur fermentum ante</p>
@@ -223,7 +223,28 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className="col-12 col-sm-4  mb-5">
+                <div className="col-12 col-sm-4 mb-5">
+                    <div className="catImg">
+                      <img className="img-fluid mb-4" src={"assets/images/Brochure.jpeg"} alt="image" /> 
+                      <h4>T-shirt Printing</h4>
+                    </div>
+                </div>
+
+                <div className="col-12 col-sm-4">
+                    <div className="catImg">
+                      <img className="img-fluid mb-4" src={"assets/images/Brochure.jpeg"} alt="image" /> 
+                      <h4>T-shirt Printing</h4>
+                    </div>
+                </div>
+
+                <div className="col-12 col-sm-4">
+                    <div className="catImg">
+                      <img className="img-fluid mb-4" src={"assets/images/Brochure.jpeg"} alt="image" /> 
+                      <h4>T-shirt Printing</h4>
+                    </div>
+                </div>
+
+                <div className="col-12 col-sm-4">
                     <div className="catImg">
                       <img className="img-fluid mb-4" src={"assets/images/Brochure.jpeg"} alt="image" /> 
                       <h4>T-shirt Printing</h4>

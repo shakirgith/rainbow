@@ -46,17 +46,19 @@ export const Footer = () => {
 
 
     <div class="container">
-    <div class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <div class="newsletter">
 
-    <div class="me-5 d-none d-lg-block">
-      <span>10% Discount on Subscribe to our Newsletter!</span>
+    <div class="col1">
+      <span className='newslettertext'>10% Discount on Subscribe to our Newsletter!</span>
     </div>
 
 
-    <div class="input-group mb-3 w-50">
-  <input type="text" class="form-control" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="button-addon2" />
-  <button class="btn btn-outline-secondary" type="button" id="button-addon2">Subscribe</button>
-</div>
+    <div class="col1">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="button-addon2" />
+        <button class="btn btn-outline-secondary my-button" type="button" id="button-addon2">Subscribe</button>
+      </div>
+  </div>
 
     </div>
   </div>
@@ -99,7 +101,7 @@ export const Footer = () => {
           <h6 class="text-uppercase fw-bold mb-4">
             Help
           </h6>
-          <ul>
+          <ul className='footer-menu'>
             <li> <NavLink to="/" class="text-reset">Order By Email</NavLink></li>
             <li> <NavLink to="/" class="text-reset">Why Choose us</NavLink></li>
             <li> <NavLink to="/" class="text-reset">FAQs</NavLink></li>
@@ -112,7 +114,7 @@ export const Footer = () => {
           <h6 class="text-uppercase fw-bold mb-4">
           Policies
           </h6>
-          <ul>
+          <ul className='footer-menu'>
             
             <li> <NavLink to="/" class="text-reset">Privacy Policy</NavLink></li>
             <li> <NavLink to="/" class="text-reset">Delivery & Return Policy</NavLink></li>
@@ -125,10 +127,10 @@ export const Footer = () => {
 
           <h6 class="text-uppercase fw-bold mb-4">Contact Info</h6>
 
-          <ul>
-            <li> <p><i class="fas fa-home me-3 text-secondary"></i>133 Jhotwara, Jaipur, India</p></li>
-            <li>  <a href="mailto:info@example.com" class="text-reset"><i class="fas fa-envelope me-3 text-secondary"></i>info@example.com</a></li>
-            <li><strong> Call or whatsapp </strong><br />  <a href="tel:+91-9588997889" class="text-reset pt-2"><i class="fas fa-phone me-3 text-secondary"></i>+91-9588997889</a></li>
+          <ul className='footer-menu'>
+            <li><i class="fas fa-home me-2 text-secondary"></i>133 Jhotwara, Jaipur, India</li>
+            <li> <a href="mailto:info@example.com" class="text-reset"><i class="fas fa-envelope me-2 text-secondary"></i> info@example.com</a></li>
+            <li className='d-block mt-2'><strong> Call or whatsapp </strong><a href="tel:+91-9588997889" class="text-reset d-block mt-1"><i class="fas fa-phone me-2 text-secondary"></i>+91-9588997889</a></li>
           </ul>
         </div>
 

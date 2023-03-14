@@ -7,7 +7,7 @@ import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Profile from "./components/Profile";
 import { Hook } from "./components/Hook";
-import Fatchapi from "./components/Fatchapi";
+// import Fatchapi from "./components/Fatchapi";
 import { Footer } from "./components/layout/Footer";
 import PageNotFound from "./components/Notfound";
 import Signin from "./components/auth/Login";
@@ -16,6 +16,10 @@ import { userContext, CountContext } from "./components/contexts/";
 import { MyCounter } from "./components/MyCounter";
 import Hotel from "./components/Hotel";
 import { Helpsupport } from "./components/Help";
+import { Services } from "./components/Services";
+import Labelstickers from "./components/Labelstickers";
+import GraphicDesign from "./components/GraphicDesign";
+import StationeryPage from "./components/Stationery";
 
 function App() {
 
@@ -45,15 +49,18 @@ function App() {
           <userContext.Provider value={{ user, setUser }}>
 
             <Header />
-            <main className="my-5 mt-0">
+            <main className="mt-0">
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
+                <Route path="/stetionery" element={<StationeryPage />} />
+                <Route path="/graphicdesign" element={<GraphicDesign />} />
+                <Route path="/labelstickers" element={<Labelstickers />} />
                 <Route path="/help" element={<Helpsupport />} />
                 <Route path="/hook" element={<Hook />} />
                 <Route path="/hotel" element={<Hotel />} />
                 <Route path="/mycounter" element={<MyCounter />} />
-                <Route path="/fatchapi" element={<Fatchapi />} />
+                <Route path="/services" element={<Services />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/register" element={<Register />} />
                 <Route path="/signin" element={!user.fname ? <Signin /> : <Navigate to="/profile" />} />

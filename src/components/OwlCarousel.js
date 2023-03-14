@@ -11,7 +11,7 @@ const options = {
     responsiveClass: true,
     nav: false,
     dots: true,
-    autoplay: false,
+    autoplay: true,
     navText: ["Prev", "Next"],
     smartSpeed: 1000,
     // responsive: {
@@ -39,20 +39,31 @@ export const OwlTest = () => {
 
                 <div className="item">
                     <div className="usericon rounded-circle"><i class="fa-regular fa-user"></i></div>
-                    <h5>Akash Hogan </h5>
-                    <p><i class="fa-solid fa-quote-left"></i> Perfect for both programmers and designers. It is great for prototyping and also creating production-ready solutions on an enterprise scale.</p>
+                    <span><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
+                    <p>Perfect for both programmers and designers. It is great for prototyping and also creating production-ready solutions on an enterprise scale.</p>
+                    <h5>Anil Bhargava ...</h5>
                 </div>
 
                 <div className="item">
                     <div className="usericon rounded-circle"><i class="fa-regular fa-user"></i></div>
-                    <h5>Akash Hogan </h5>
-                    <p><i class="fa-solid fa-quote-left"></i> Perfect for both programmers and designers. It is great for prototyping and also creating production-ready solutions on an enterprise scale.</p>
+                    <span><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"> </i>  <i class="fas fa-star-half-stroke"></i></span>
+                    <p>Perfect for both programmers and designers. It is great for prototyping and also creating production-ready solutions on an enterprise scale.</p>
+                    <h5>Naushad Khan ...</h5>
                 </div>
 
                 <div className="item">
                     <div className="usericon rounded-circle"><i class="fa-regular fa-user"></i></div>
-                    <h5>Akash Hogan </h5>
-                    <p><i class="fa-solid fa-quote-left"></i> Perfect for both programmers and designers. It is great for prototyping and also creating production-ready solutions on an enterprise scale.</p>
+                    <span><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></span>
+                   
+                    <p>Perfect for both programmers and designers. It is great for prototyping and also creating production-ready solutions on an enterprise scale.</p>
+                    <h5>Dharmendra Sharma ...</h5>
+                </div>
+
+                <div className="item">
+                    <div className="usericon rounded-circle"><i class="fa-regular fa-user"></i></div>
+                    <span><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"> </i>  <i class="fas fa-star-half-stroke"></i></span>
+                    <p>Perfect for both programmers and designers. It is great for prototyping and also creating production-ready solutions on an enterprise scale.</p>
+                    <h5>Khoobchad Lakhera ...</h5>
                 </div>
 
             </OwlCarousel>

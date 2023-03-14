@@ -12,6 +12,10 @@ const About = () => {
   };
 
   return (
+<>
+    <div className="page-heading">
+    <h1>All Products</h1>
+    </div>
     <section className='text-center'>
     <div className='container'>
         <h2>This is About Page </h2>
@@ -39,6 +43,7 @@ const About = () => {
 
     </div>
  </section>
+ </>
   )
 }
 export default About

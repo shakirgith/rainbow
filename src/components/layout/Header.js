@@ -78,30 +78,30 @@ const Header = () => {
 
   return (
     <>
-
       <div className="topbar">
-      <div class="container-fluid">
-        <div className="tobar-content">
-         <NavLink className="navbar-brand" to="/">
-            <img className="img-fluid" src={'assets/images/trp-logo.png'} alt="logo" />
+        <div class="container-fluid">
+          <div className="tobar-content">
+            <NavLink className="navbar-brand" to="/">
+              <img
+                className="img-fluid"
+                src={"assets/images/trp-logo.png"}
+                alt="logo"
+              />
               {/* <img className="img-fluid" src={LogoImage} /> */}
             </NavLink>
 
-
             <div className="topright">
-                <div className="call"></div>
-
+              <div className="call"></div>
             </div>
-
 
             <ul className="topbar-menu">
               <li>
-              <NavLink
+                <NavLink
                   className="nav-link btn-help"
                   activeClassName="active"
                   to="/help"
                 >
-                  <i class="fa-regular fa-circle-question"></i>  Customer Support
+                  Customer Support
                 </NavLink>
               </li>
 
@@ -129,63 +129,45 @@ const Header = () => {
 
               {user.fname ? (
                 <>
+                  <li className="nav-item dropdown">
+                  
+                  
+                    <NavLink
+                      className="dropdown-toggle nav-link guest"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    ><i className="far fa-user me-2"></i>  
+                      <span className="me-0">{user.fname} </span>
+                    </NavLink>
 
-                    <li class="nav-item dropdown">
-                      <NavLink class="dropdown-toggle nav-link guest" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      <span className="me-2">Guest: {user.fname} </span>
-                      </NavLink>
-
-                      <ul class="nav-item dropdown-menu">
-                        <li><NavLink
-                                          className="nav-link"
-                                          activeClassName="active"
-                                          to="/profile"
-                                        
-                                        >
-                                          My Account
-                                        </NavLink>
-                                      </li>
-                                      <li className="nav-item" onClick={handleClick}>
-                   
-                   <button
-                     className="btn btn-primary logout"
-                     to=""
-                     onClick={LogOut}
-                   >
-                     Logout
-                   </button>
-                 </li>
-                      </ul>
-                    </li>
-
-
-
-                 
-
-                 
+                    <ul class="nav-item dropdown-menu">
+                      <li>
+                        <NavLink className="nav-link" to="/profile">
+                          My Account
+                        </NavLink>
+                      </li>
+                      <li className="nav-item">
+                        <NavLink className="nav-link" to="" onClick={LogOut}>
+                          Logout
+                        </NavLink>
+                      </li>
+                    </ul>
+                  </li>
                 </>
               ) : (
                 <>
-                <li className="nav-item">
-                  <NavLink 
-                    to="/signin"
-                  >
-                    <button className="btn p-0">Login / Signup</button>
-                  </NavLink>
-                </li>
+                  <li className="nav-item">
+                    <NavLink to="/signin">
+                      <button className="btn p-0">Login / Signup</button>
+                    </NavLink>
+                  </li>
                 </>
               )}
-
-
-
-
             </ul>
-
-         
-          </div> 
-       </div> 
-
-
+          </div>
+        </div>
       </div>
       <nav class="navbar navbar-expand-lg bg-dark sticky-top">
         <div class="container-fluid">
@@ -223,64 +205,308 @@ const Header = () => {
                 </NavLink>
               </li>
 
+              <li className="nav-item dropdown">
+                  <NavLink
+                  className="nav-link dropdown-toggle"
+                  activeClassName="active"
+                  to="/about"
+                  onClick={handleClick}
+                  id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false"
+                >
+                   All Products
+                </NavLink>
+
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                  <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/about"
+                    onClick={handleClick}
+                  >
+                    Signs & Marketing
+                  </NavLink>
+                </li>
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/about"
+                    onClick={handleClick}
+                  >
+                    Screen Printing
+                  </NavLink>
+                </li>
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/about"
+                    onClick={handleClick}
+                  >
+                    Digital Printing
+                  </NavLink>
+                </li>
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/about"
+                    onClick={handleClick}
+                  >
+                    Package Printing
+                  </NavLink>
+                </li>
+
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/about"
+                    onClick={handleClick}
+                  >
+                    T-shirt Printing
+                  </NavLink>
+                </li>
+
+
+                </ul>
+
+
+
+              </li>
+
+
+
 
               <li className="nav-item">
                 <NavLink
                   className="nav-link"
                   activeClassName="active"
-                  to="/fatchapi"
+                  to="/graphicdesign"
+                  onClick={handleClick} 
+                >
+                   Graphic Design & Printing
+                </NavLink>
+
+                </li>
+
+
+
+
+              <li className="nav-item dropdown">
+                <NavLink
+                  className="nav-link dropdown-toggle"
+                  activeClassName="active"
+                  to="/stetionery"
+                  onClick={handleClick}
+                  id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false"
+                >
+                  Stationery
+                </NavLink>
+
+
+
+
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                  <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/stetionery"
+                    onClick={handleClick}
+                  >
+                    Business Cards
+                  </NavLink>
+                </li>
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/stetionery"
+                    onClick={handleClick}
+                  >
+                    Letterheads
+                  </NavLink>
+                </li>
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/stetionery"
+                    onClick={handleClick}
+                  >
+                    Envelopes
+                  </NavLink>
+                </li>
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/stetionery"
+                    onClick={handleClick}
+                  >
+                    Bill Book / Invoice
+                  </NavLink>
+                </li>
+
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/stetionery"
+                    onClick={handleClick}
+                  >
+                    Notebook / Diaries
+                  </NavLink>
+                </li>
+
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/stetionery"
+                    onClick={handleClick}
+                  >
+                    ID Cards
+                  </NavLink>
+                </li>
+
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/stetionery"
+                    onClick={handleClick}
+                  >
+                    Lanyards / Ribbon 
+                  </NavLink>
+                </li>
+               
+                </ul>
+              </li>
+
+             
+             
+                <li className="nav-item dropdown">
+                <NavLink
+                  className="nav-link dropdown-toggle"
+                  activeClassName="active"
+                  to="/labelstickers"
+                  onClick={handleClick}
+                  id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false"
+                >
+                  Labels & Stickers
+                </NavLink>
+
+
+
+
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                  <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/labelstickers"
+                    onClick={handleClick}
+                  >
+                    Business Cards
+                  </NavLink>
+                </li>
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/labelstickers"
+                    onClick={handleClick}
+                  >
+                    Letterheads
+                  </NavLink>
+                </li>
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/labelstickers"
+                    onClick={handleClick}
+                  >
+                    Envelopes
+                  </NavLink>
+                </li>
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/labelstickers"
+                    onClick={handleClick}
+                  >
+                    Bill Book / Invoice
+                  </NavLink>
+                </li>
+
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/labelstickers"
+                    onClick={handleClick}
+                  >
+                    Notebook / Diaries
+                  </NavLink>
+                </li>
+
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/labelstickers"
+                    onClick={handleClick}
+                  >
+                    ID Cards
+                  </NavLink>
+                </li>
+
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/labelstickers"
+                    onClick={handleClick}
+                  >
+                    Lanyards / Ribbon 
+                  </NavLink>
+                </li>
+               
+                </ul>
+              </li>
+
+
+              <li className="nav-item">
+                <NavLink
+                  className="nav-link"
+                  activeClassName="active"
+                  to="/services"
                   onClick={handleClick}
                 >
                   Services
                 </NavLink>
               </li>
-
-              <li className="nav-item">
-                <NavLink
-                  className="nav-link"
-                  activeClassName="active"
-                  to="/about"
-                  onClick={handleClick}
-                >
-                  Printing Categories
-                </NavLink>
-              </li>
-
-              <li className="nav-item">
-                <NavLink
-                  className="nav-link"
-                  activeClassName="active"
-                  to="/about"
-                  onClick={handleClick}
-                >
-                  Graphic Design & Printing
-                </NavLink>
-              </li>
-
-            
-
-              <li className="nav-item">
-                <NavLink
-                  className="nav-link"
-                  activeClassName="active"
-                  to="/about"
-                  onClick={handleClick}
-                >
-                  Stationery
-                </NavLink>
-              </li>
-
-              <li className="nav-item">
-                <NavLink
-                  className="nav-link"
-                  activeClassName="active"
-                  to="/about"
-                  onClick={handleClick}
-                >
-                  Labels & Stickers
-                </NavLink>
-              </li>
-
 
               {/* <li className="nav-item dropdown">
                 <NavLink
@@ -320,24 +546,6 @@ const Header = () => {
               </ul>
               </li> */}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
-
-
               {/* <li className="nav-item">
                 <NavLink
                   className="nav-link"
@@ -371,7 +579,6 @@ const Header = () => {
                 </NavLink>
               </li>
 
-
               <li className="nav-item d-none">
                 <NavLink
                   className="nav-link"
@@ -382,7 +589,7 @@ const Header = () => {
                   My Counter
                 </NavLink>
               </li>
-             
+
               <li className="nav-item online order">
                 <NavLink
                   className="nav-link"
@@ -392,8 +599,6 @@ const Header = () => {
                   ONLINE ORDER
                 </NavLink>
               </li>
-
-            
             </ul>
           </div>
         </div>

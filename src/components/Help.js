@@ -3,6 +3,9 @@ import React from 'react'
 export const Helpsupport = () => {
   return (
     <>
+     <div className="page-heading">
+     <h1>Help</h1>
+          </div>
 
     <section className="customer-support">
         <div className="container">

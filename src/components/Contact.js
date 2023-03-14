@@ -103,14 +103,11 @@ const Contact = () => {
 
   return (
     <>
+          <div className="page-heading">
+          <h1>Contact us</h1>
+          </div>
       <section className="text-center">
         <div className="container">
-        <h1>This is Contact Page</h1>
-       
-<br /><br />
-       
-
-
 <div className="col-lg-6 mx-auto">
 
       <form ref={form} onSubmit={sendEmail}>

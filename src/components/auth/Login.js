@@ -79,9 +79,11 @@ const Signin = () => {
 
   return (
     <>
+     <div className="page-heading">
+    <h1>Login</h1>
+    </div>
       <section className="text-center">
         <div className="container">
-          <h2>Login</h2>
           <div className="col-sm-6 m-auto">
             <form onSubmit={submitForm}>
               <fieldset>
