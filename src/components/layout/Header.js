@@ -205,6 +205,246 @@ const Header = () => {
                 </NavLink>
               </li>
 
+
+              <li className="nav-item dropdown position-static">
+                  <NavLink
+                  className="nav-link dropdown-toggle"
+                  activeClassName="active"
+                  to="/about"
+                  onClick={handleClick}
+                  id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                   Mega menu
+                </NavLink>
+
+          <div class="dropdown-menu megamenu mt-0" aria-labelledby="navbarDropdown">
+            <div class="container">
+              <div class="row my-4">
+
+                <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                  <div class="list-group list-group-flush">
+                    <h7 class="mega-menu-heading">Lorem ipsum</h7>
+
+                    <ul className="menu-list-group">
+                      <li className="list-group-item">
+                        <NavLink
+                          className="list-group-item-action"
+                          activeClassName="active"
+                          to="/about"
+                          onClick={handleClick}
+                        >
+                          Book Printing
+                        </NavLink>
+                      </li>
+
+                      <li className="list-group-item">
+                        <NavLink
+                          className="list-group-item-action"
+                          activeClassName="active"
+                          to="/about"
+                          onClick={handleClick}
+                        >
+                          Book Printing
+                        </NavLink>
+                      </li>
+                      <li className="list-group-item">
+                        <NavLink
+                          className="list-group-item-action"
+                          activeClassName="active"
+                          to="/about"
+                          onClick={handleClick}
+                        >
+                          Book Printing
+                        </NavLink>
+                      </li>
+
+                      <li className="list-group-item">
+                        <NavLink
+                          className="list-group-item-action"
+                          activeClassName="active"
+                          to="/about"
+                          onClick={handleClick}
+                        >
+                          Book Printing
+                        </NavLink>
+                      </li>
+
+                    </ul>
+                   
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                  <div class="list-group list-group-flush">
+                    <h7 class="mega-menu-heading">Lorem ipsum</h7>
+
+                    <ul className="menu-list-group">
+                      <li className="list-group-item">
+                        <NavLink
+                          className="list-group-item-action"
+                          activeClassName="active"
+                          to="/about"
+                          onClick={handleClick}
+                        >
+                          Book Printing
+                        </NavLink>
+                      </li>
+
+                      <li className="list-group-item">
+                        <NavLink
+                          className="list-group-item-action"
+                          activeClassName="active"
+                          to="/about"
+                          onClick={handleClick}
+                        >
+                          Book Printing
+                        </NavLink>
+                      </li>
+                      <li className="list-group-item">
+                        <NavLink
+                          className="list-group-item-action"
+                          activeClassName="active"
+                          to="/about"
+                          onClick={handleClick}
+                        >
+                          Book Printing
+                        </NavLink>
+                      </li>
+
+                      <li className="list-group-item">
+                        <NavLink
+                          className="list-group-item-action"
+                          activeClassName="active"
+                          to="/about"
+                          onClick={handleClick}
+                        >
+                          Book Printing
+                        </NavLink>
+                      </li>
+
+                    </ul>
+                   
+                  </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                  <div class="list-group list-group-flush">
+                    <h7 class="mega-menu-heading">Lorem ipsum</h7>
+
+                    <ul className="menu-list-group">
+                      <li className="list-group-item">
+                        <NavLink
+                          className="list-group-item-action"
+                          activeClassName="active"
+                          to="/about"
+                          onClick={handleClick}
+                        >
+                          Book Printing
+                        </NavLink>
+                      </li>
+
+                      <li className="list-group-item">
+                        <NavLink
+                          className="list-group-item-action"
+                          activeClassName="active"
+                          to="/about"
+                          onClick={handleClick}
+                        >
+                          Book Printing
+                        </NavLink>
+                      </li>
+                      <li className="list-group-item">
+                        <NavLink
+                          className="list-group-item-action"
+                          activeClassName="active"
+                          to="/about"
+                          onClick={handleClick}
+                        >
+                          Book Printing
+                        </NavLink>
+                      </li>
+
+                      <li className="list-group-item">
+                        <NavLink
+                          className="list-group-item-action"
+                          activeClassName="active"
+                          to="/about"
+                          onClick={handleClick}
+                        >
+                          Book Printing
+                        </NavLink>
+                      </li>
+
+                    </ul>
+                   
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                  <div class="list-group list-group-flush">
+                    <h7 class="mega-menu-heading">Lorem ipsum</h7>
+
+                    <ul className="menu-list-group">
+                      <li className="list-group-item">
+                        <NavLink
+                          className="list-group-item-action"
+                          activeClassName="active"
+                          to="/about"
+                          onClick={handleClick}
+                        >
+                          Book Printing
+                        </NavLink>
+                      </li>
+
+                      <li className="list-group-item">
+                        <NavLink
+                          className="list-group-item-action"
+                          activeClassName="active"
+                          to="/about"
+                          onClick={handleClick}
+                        >
+                          Book Printing
+                        </NavLink>
+                      </li>
+                      <li className="list-group-item">
+                        <NavLink
+                          className="list-group-item-action"
+                          activeClassName="active"
+                          to="/about"
+                          onClick={handleClick}
+                        >
+                          Book Printing
+                        </NavLink>
+                      </li>
+
+                      <li className="list-group-item">
+                        <NavLink
+                          className="list-group-item-action"
+                          activeClassName="active"
+                          to="/about"
+                          onClick={handleClick}
+                        >
+                          Book Printing
+                        </NavLink>
+                      </li>
+
+                    </ul>
+                   
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </li>
+
+
+
+
+
+
+
               <li className="nav-item dropdown">
                   <NavLink
                   className="nav-link dropdown-toggle"
@@ -213,8 +453,10 @@ const Header = () => {
                   onClick={handleClick}
                   id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false"
                 >
-                   All Products
+                   Categories
                 </NavLink>
+
+              
 
                 <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
                   <li className="nav-item">
@@ -224,7 +466,7 @@ const Header = () => {
                     to="/about"
                     onClick={handleClick}
                   >
-                    Signs & Marketing
+                    Book Printing
                   </NavLink>
                 </li>
 
@@ -235,7 +477,7 @@ const Header = () => {
                     to="/about"
                     onClick={handleClick}
                   >
-                    Screen Printing
+                    Brochure Printing
                   </NavLink>
                 </li>
 
@@ -246,7 +488,7 @@ const Header = () => {
                     to="/about"
                     onClick={handleClick}
                   >
-                    Digital Printing
+                   Business Card
                   </NavLink>
                 </li>
 
@@ -257,7 +499,7 @@ const Header = () => {
                     to="/about"
                     onClick={handleClick}
                   >
-                    Package Printing
+                    Catalogue Printing
                   </NavLink>
                 </li>
 
@@ -269,9 +511,205 @@ const Header = () => {
                     to="/about"
                     onClick={handleClick}
                   >
-                    T-shirt Printing
+                  Flyer Printing
                   </NavLink>
                 </li>
+
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/about"
+                    onClick={handleClick}
+                  >
+                  Folder Printing
+                  </NavLink>
+                </li>
+
+
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/about"
+                    onClick={handleClick}
+                  >
+                   Hamper Box
+                  </NavLink>
+                </li>
+
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/about"
+                    onClick={handleClick}
+                  >
+                  Hang/Product Printing
+                  </NavLink>
+                </li>
+
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/about"
+                    onClick={handleClick}
+                  >
+                  Invitation Card Printing
+                  </NavLink>
+                </li>
+
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/about"
+                    onClick={handleClick}
+                  >
+                  Letterhead Printing
+                  </NavLink>
+                </li>
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/about"
+                    onClick={handleClick}
+                  >
+                   Magazine Printing
+                  </NavLink>
+                </li>
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/about"
+                    onClick={handleClick}
+                  >
+                   Newsletter Printing
+                  </NavLink>
+                </li>
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/about"
+                    onClick={handleClick}
+                  >
+                   Digital Printing
+                  </NavLink>
+                </li>
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/about"
+                    onClick={handleClick}
+                  >
+                   Offset Printing
+                  </NavLink>
+                </li>
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/about"
+                    onClick={handleClick}
+                  >
+                   Poster Printing
+                  </NavLink>
+                </li>
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/about"
+                    onClick={handleClick}
+                  >
+                   Digital Printing
+                  </NavLink>
+                </li>
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/about"
+                    onClick={handleClick}
+                  >
+                   Printing & Packaging
+                  </NavLink>
+                </li>
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/about"
+                    onClick={handleClick}
+                  >
+                  Prospectus Printing
+                  </NavLink>
+                </li>
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/about"
+                    onClick={handleClick}
+                  >
+                   Visiting Card Printing
+                  </NavLink>
+                </li>
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/about"
+                    onClick={handleClick}
+                  >
+                  Wall/Table Calendar <br /> Printing
+                  </NavLink>
+                </li>
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/about"
+                    onClick={handleClick}
+                  >
+                   Wedding Gift
+                  </NavLink>
+                </li>
+
+                <li className="nav-item">
+                  <NavLink
+                    className="nav-link dropdown-item"
+                    activeClassName="active"
+                    to="/about"
+                    onClick={handleClick}
+                  >
+                   T-shirt Printing
+                  </NavLink>
+                </li>
+
+              
+
 
 
                 </ul>
@@ -590,7 +1028,7 @@ const Header = () => {
                 </NavLink>
               </li>
 
-              <li className="nav-item online order">
+              <li className="nav-item online my-button">
                 <NavLink
                   className="nav-link"
                   activeClassName="active"

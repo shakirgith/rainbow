@@ -13,7 +13,7 @@ const Home = () => {
 
         <div className="row mb-5">
             <div className="col-sm-6 col-lg-3">
-                <div className="features teal-color">
+                <div className="features red-color">
                   <div className="icon-circle"><img className="img-icon" src={"assets/images/svgs/regular/user.svg"} alt="icon" /> </div>
                   <h3>The Lowest Cost of Printing </h3>
                   <p>Curabitur eget turpis iaculis eleifend. Curabitur consectetur fermentum ante</p>
@@ -37,7 +37,7 @@ const Home = () => {
             </div>
 
             <div className="col-sm-6 col-lg-3">
-                <div className="features red-color">
+                <div className="features teal-color">
                   <div className="icon-circle"><img className="img-icon" src={"assets/images/svgs/regular/user.svg"} alt="icon" /> </div>
                   <h3>Fast & Free Delivery</h3>
                   <p>Curabitur eget turpis iaculis eleifend. Curabitur consectetur fermentum ante</p>
@@ -71,13 +71,13 @@ const Home = () => {
               </div>
 
               <p>
-                Rainbow Print mission is to be everyone’s, anyone’s one stop
+                The Rainbow Print mission is to be everyone’s, anyone’s one stop
                 printing service in the city!   </p>
                 <p> We aim to bring any idea, any project you task us with to its
                 visual, printed form. Ordering our services will allow you to
                 experience the luxury of high quality printed materials, and
                 reliable staff, with affordable prices.</p> 
-                <p>At The Rainbow Print, we
+                <p>At TRP, we
                 will implement quality procedure at every stage - from the
                 inception of design to delivery, making sure that everything is
                 perfect!
@@ -101,7 +101,7 @@ const Home = () => {
               <div className="col-sm-6 col-lg-3">
                   <div className="heading">
                     <span className="subtitle">Our Services</span>
-                    <h2>
+                    <h2 className="text-white">
                       Most Popular <br />
                       <span>Printing</span>
                     </h2>
@@ -109,7 +109,7 @@ const Home = () => {
                     <span className="dot1"></span>
                     <span className="dot"></span>
                   </div>
-                  <p>At The Rainbow Print, we will implement quality procedure at every stage - from the inception of design to delivery, making sure that everything is perfect!</p>
+                  <p className="text-white">At The Rainbow Print, we will implement quality procedure at every stage - from the inception of design to delivery, making sure that everything is perfect!</p>
                 </div>
                 <div className="col-sm-6 col-lg-3">
                     <div className="features mb-5">
@@ -188,68 +188,62 @@ const Home = () => {
 
 
               <div className="row">
-                <div className="col-12 col-sm-4  mb-5">
+                <div className="col-12 col-sm-3  mb-5">
                     <div className="catImg">
                       <img className="img-fluid mb-4" src={"assets/images/Brochure.jpeg"} alt="image" /> 
                       <h4>Brochure Printing</h4>
                     </div>
                 </div>
 
-                <div className="col-12 col-sm-4  mb-5">
+                <div className="col-12 col-sm-3  mb-5">
                     <div className="catImg">
                       <img className="img-fluid mb-4" src={"assets/images/Brochure.jpeg"} alt="image" /> 
                       <h4>Business Card</h4>
                     </div>
                 </div>
 
-                <div className="col-12 col-sm-4  mb-5">
+                <div className="col-12 col-sm-3  mb-5">
                     <div className="catImg">
                       <img className="img-fluid mb-4" src={"assets/images/Brochure.jpeg"} alt="image" /> 
                       <h4>T-shirt Printing</h4>
                     </div>
                 </div>
 
-                <div className="col-12 col-sm-4  mb-5">
+                <div className="col-12 col-sm-3  mb-5">
                     <div className="catImg">
                       <img className="img-fluid mb-4" src={"assets/images/Brochure.jpeg"} alt="image" /> 
                       <h4>Brochure Printing</h4>
                     </div>
                 </div>
 
-                <div className="col-12 col-sm-4 mb-5">
+                <div className="col-12 col-sm-3  mb-5">
+                    <div className="catImg">
+                      <img className="img-fluid mb-4" src={"assets/images/Brochure.jpeg"} alt="image" /> 
+                      <h4>Brochure Printing</h4>
+                    </div>
+                </div>
+
+                <div className="col-12 col-sm-3  mb-5">
                     <div className="catImg">
                       <img className="img-fluid mb-4" src={"assets/images/Brochure.jpeg"} alt="image" /> 
                       <h4>Business Card</h4>
                     </div>
                 </div>
 
-                <div className="col-12 col-sm-4 mb-5">
+                <div className="col-12 col-sm-3  mb-5">
                     <div className="catImg">
                       <img className="img-fluid mb-4" src={"assets/images/Brochure.jpeg"} alt="image" /> 
                       <h4>T-shirt Printing</h4>
                     </div>
                 </div>
 
-                <div className="col-12 col-sm-4">
+                <div className="col-12 col-sm-3  mb-5">
                     <div className="catImg">
                       <img className="img-fluid mb-4" src={"assets/images/Brochure.jpeg"} alt="image" /> 
-                      <h4>T-shirt Printing</h4>
+                      <h4>Brochure Printing</h4>
                     </div>
                 </div>
-
-                <div className="col-12 col-sm-4">
-                    <div className="catImg">
-                      <img className="img-fluid mb-4" src={"assets/images/Brochure.jpeg"} alt="image" /> 
-                      <h4>T-shirt Printing</h4>
-                    </div>
-                </div>
-
-                <div className="col-12 col-sm-4">
-                    <div className="catImg">
-                      <img className="img-fluid mb-4" src={"assets/images/Brochure.jpeg"} alt="image" /> 
-                      <h4>T-shirt Printing</h4>
-                    </div>
-                </div>
+                
 
               </div>
           </div>
@@ -260,10 +254,10 @@ const Home = () => {
         <div className="container">
 
               <div className="heading text-center">
-                <span className="subtitle">Overview</span>
-                <h2>
-                Client
-                  <span> Testimonial</span>
+                <span className="subtitle">Testimonial</span>
+                <h2 className="text-white">
+                What They 
+                  <span> Say</span>
                 </h2>
                 <span className="dot1"></span> <span className="dot1"></span>
                 <span className="dot1"></span>
