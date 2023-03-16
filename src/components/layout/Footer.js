@@ -50,7 +50,8 @@ export const Footer = () => {
     <div className="newsletter">
 
     <div className="col1">
-      <span className='newslettertext'>10% Discount on Subscribe to our Newsletter!</span>
+      <span className='newslettertext'>For the latest trends,
+ideas & promotions.</span>
     </div>
 
 

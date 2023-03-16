@@ -24,7 +24,7 @@ const Home = () => {
                 <div className="features perple-color">
                   <div className="icon-circle"><img className="img-icon" src={"assets/images/svgs/regular/user.svg"} alt="icon" /> </div>
                   <h3>Graphic Designers</h3>
-                  <p>Curabitur eget turpis iaculis eleifend. Curabitur consectetur fermentum ante</p>
+                  <p>A great marketing plan combined with an effective print design are the secret to your success. Our Creative Designers are top-level experts when it comes to marketing to homeowners for HVAC, plumbing and electrical services.</p>
                 </div>
             </div>
 
@@ -115,7 +115,7 @@ const Home = () => {
                     <div className="features mb-5">
                       <div className="icon-circle"><img className="img-icon" src={"assets/images/svgs/regular/user.svg"} alt="icon" /> </div>
                       <h3>Print</h3>
-                      <p>Curabitur eget turpis iaculis eleifend. Curabitur consectetur fermentum ante</p>
+                      <p>It’s not just ink on paper to us. Your company relies on the quality of the items that we produce. Your prospects and homeowners will see that you are a professional service provider. You’ll look your very best with our high-value products.</p>
                     </div>
                 </div>
                 <div className="col-sm-6 col-lg-3">
