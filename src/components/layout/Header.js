@@ -79,7 +79,7 @@ const Header = () => {
   return (
     <>
       <div className="topbar">
-        <div class="container-fluid">
+        <div class="container container-1570">
           <div className="tobar-content">
           
                     <div class="topbar-left text-lg-start text-center">
@@ -167,54 +167,59 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <nav class="navbar navbar-expand-lg bg-dark sticky-top">
-        <div class="container-fluid">
-          <NavLink className="navbar-brand" to="/">
-          <img className="img-fluid" src={'assets/images/trp-logo.png'} alt="logo" />
-          </NavLink>
-          <button
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            className={`navbar-toggler ${isActive ? "active" : ""}`}
-            onClick={handleClick}
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
+
+
+
+        <nav class="navbar style-one navbar-area navbar-expand-lg py-20">
+            <div class="container container-1570">
+
+            <div class="responsive-mobile-menu">
+                    <button  className={`menu toggle-btn d-block d-lg-none ${isActive ? "active" : ""}`}  data-target="#Iitechie_main_menu"   onClick={handleClick} aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-left"></span>
+                        <span class="icon-right"></span>
+                    </button>
+                </div>
+                <div class="logo">
+                <NavLink className="navbar-brand" to="/">
+                <img className="img-fluid" src={'assets/images/trp-logo.png'} alt="logo" />
+                </NavLink>
+                </div>
+
+                <div class="nav-right-part nav-right-part-mobile">
+                    <button class="search-bar-btn" href="#">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+
+
           <div
-            id="navbarSupportedContent"
-            className={`collapse navbar-collapse justify-content-center ${
+            id="Iitechie_main_menu"
+            className={`collapse navbar-collapse ${
               isActive ? "active" : ""
             }`}
           >
-            <ul className="navbar-nav text-white">
-              <li className="nav-item">
-                <NavLink
-                  className="nav-link"
-                  activeClassName="active"
+            <ul className="navbar-nav menu-open text-lg-end">
+              <li>
+                <NavLink activeClassName="active"
                   aria-current="page"
                   to="/"
-                  onClick={handleClick}
-                >
+                  onClick={handleClick}>
                   Home
                 </NavLink>
               </li>
 
 
-              <li className="nav-item dropdown position-static">
-                  <NavLink
-                  className="nav-link dropdown-toggle position-relative"
+              <li className="menu-item-has-children">
+                  <NavLink 
                   activeClassName="active"
                   to="/about"
-                  onClick={handleClick}
-                  id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                  onClick={handleClick}>
                   Categories
                 </NavLink>
+                  
+                 
 
-          <div class="dropdown-menu megamenu mt-0" aria-labelledby="navbarDropdown">
+       <div class="dropdown-menu megamenu mt-0" aria-labelledby="navbarDropdown">
             <div class="container">
               <div class="row my-4">
 
@@ -486,67 +491,16 @@ const Header = () => {
                     </ul>
                    
                   </div>
-                </div>
+                </div> 
 
-                {/* <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                  <div class="list-group list-group-flush">
-                    <h7 class="mega-menu-heading">Lorem ipsum</h7>
-
-                    <ul className="menu-list-group">
-                      <li className="list-group-item">
-                        <NavLink
-                          className="list-group-item-action"
-                          activeClassName="active"
-                          to="/about"
-                          onClick={handleClick}
-                        >
-                          Book Printing
-                        </NavLink>
-                      </li>
-
-                      <li className="list-group-item">
-                        <NavLink
-                          className="list-group-item-action"
-                          activeClassName="active"
-                          to="/about"
-                          onClick={handleClick}
-                        >
-                          Book Printing
-                        </NavLink>
-                      </li>
-                      <li className="list-group-item">
-                        <NavLink
-                          className="list-group-item-action"
-                          activeClassName="active"
-                          to="/about"
-                          onClick={handleClick}
-                        >
-                          Book Printing
-                        </NavLink>
-                      </li>
-
-                      <li className="list-group-item">
-                        <NavLink
-                          className="list-group-item-action"
-                          activeClassName="active"
-                          to="/about"
-                          onClick={handleClick}
-                        >
-                          Book Printing
-                        </NavLink>
-                      </li>
-
-                    </ul>
-                   
-                  </div>
-                </div> */}
+               
 
 
 
 
               </div>
             </div>
-          </div>
+          </div> 
         </li>
 
 
@@ -559,9 +513,8 @@ const Header = () => {
 
 
 
-              <li className="nav-item">
+              <li>
                 <NavLink
-                  className="nav-link"
                   activeClassName="active"
                   to="/graphicdesign"
                   onClick={handleClick} 
@@ -571,27 +524,24 @@ const Header = () => {
 
                 </li>
 
-
-
-
-              <li className="nav-item dropdown">
-                <NavLink
-                  className="nav-link dropdown-toggle"
-                  activeClassName="active"
+                <li class="menu-item-has-children">
+                <NavLink activeClassName="active"
                   to="/stetionery"
-                  onClick={handleClick}
-                  id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false"
-                >
-                  Stationery
+                  onClick={handleClick}> Stationery
                 </NavLink>
 
 
-
-
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                  <li className="nav-item">
+                  <ul class="sub-menu">
+                        <li>
+                        <NavLink activeClassName="active"
+                          to="/stetionery"
+                          onClick={handleClick}>
+                          Business Cards
+                        </NavLink>
+                      </li>
+                     
+                  <li>
                   <NavLink
-                    className="nav-link dropdown-item"
                     activeClassName="active"
                     to="/stetionery"
                     onClick={handleClick}
@@ -600,10 +550,8 @@ const Header = () => {
                   </NavLink>
                 </li>
 
-                <li className="nav-item">
-                  <NavLink
-                    className="nav-link dropdown-item"
-                    activeClassName="active"
+                <li>
+                  <NavLink activeClassName="active"
                     to="/stetionery"
                     onClick={handleClick}
                   >
@@ -611,9 +559,8 @@ const Header = () => {
                   </NavLink>
                 </li>
 
-                <li className="nav-item">
+                <li>
                   <NavLink
-                    className="nav-link dropdown-item"
                     activeClassName="active"
                     to="/stetionery"
                     onClick={handleClick}
@@ -622,9 +569,9 @@ const Header = () => {
                   </NavLink>
                 </li>
 
-                <li className="nav-item">
+                <li>
                   <NavLink
-                    className="nav-link dropdown-item"
+                   
                     activeClassName="active"
                     to="/stetionery"
                     onClick={handleClick}
@@ -634,9 +581,8 @@ const Header = () => {
                 </li>
 
 
-                <li className="nav-item">
+                <li>
                   <NavLink
-                    className="nav-link dropdown-item"
                     activeClassName="active"
                     to="/stetionery"
                     onClick={handleClick}
@@ -646,9 +592,8 @@ const Header = () => {
                 </li>
 
 
-                <li className="nav-item">
+                <li>
                   <NavLink
-                    className="nav-link dropdown-item"
                     activeClassName="active"
                     to="/stetionery"
                     onClick={handleClick}
@@ -658,9 +603,8 @@ const Header = () => {
                 </li>
 
 
-                <li className="nav-item">
+                <li>
                   <NavLink
-                    className="nav-link dropdown-item"
                     activeClassName="active"
                     to="/stetionery"
                     onClick={handleClick}
@@ -674,13 +618,11 @@ const Header = () => {
 
              
              
-                <li className="nav-item dropdown">
+              <li class="menu-item-has-children">
                 <NavLink
-                  className="nav-link dropdown-toggle"
                   activeClassName="active"
                   to="/labelstickers"
                   onClick={handleClick}
-                  id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false"
                 >
                   Labels & Stickers
                 </NavLink>
@@ -688,10 +630,9 @@ const Header = () => {
 
 
 
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                  <li className="nav-item">
+                <ul class="sub-menu">
+                  <li>
                   <NavLink
-                    className="nav-link dropdown-item"
                     activeClassName="active"
                     to="/labelstickers"
                     onClick={handleClick}
@@ -700,9 +641,8 @@ const Header = () => {
                   </NavLink>
                 </li>
 
-                <li className="nav-item">
+                <li>
                   <NavLink
-                    className="nav-link dropdown-item"
                     activeClassName="active"
                     to="/labelstickers"
                     onClick={handleClick}
@@ -711,9 +651,9 @@ const Header = () => {
                   </NavLink>
                 </li>
 
-                <li className="nav-item">
+                <li>
                   <NavLink
-                    className="nav-link dropdown-item"
+                  
                     activeClassName="active"
                     to="/labelstickers"
                     onClick={handleClick}
@@ -722,9 +662,8 @@ const Header = () => {
                   </NavLink>
                 </li>
 
-                <li className="nav-item">
+                <li>
                   <NavLink
-                    className="nav-link dropdown-item"
                     activeClassName="active"
                     to="/labelstickers"
                     onClick={handleClick}
@@ -734,9 +673,8 @@ const Header = () => {
                 </li>
 
 
-                <li className="nav-item">
+                <li>
                   <NavLink
-                    className="nav-link dropdown-item"
                     activeClassName="active"
                     to="/labelstickers"
                     onClick={handleClick}
@@ -746,9 +684,8 @@ const Header = () => {
                 </li>
 
 
-                <li className="nav-item">
+                <li>
                   <NavLink
-                    className="nav-link dropdown-item"
                     activeClassName="active"
                     to="/labelstickers"
                     onClick={handleClick}
@@ -758,9 +695,8 @@ const Header = () => {
                 </li>
 
 
-                <li className="nav-item">
+                <li>
                   <NavLink
-                    className="nav-link dropdown-item"
                     activeClassName="active"
                     to="/labelstickers"
                     onClick={handleClick}
@@ -773,9 +709,8 @@ const Header = () => {
               </li>
 
 
-              <li className="nav-item">
+              <li>
                 <NavLink
-                  className="nav-link"
                   activeClassName="active"
                   to="/services"
                   onClick={handleClick}
@@ -833,7 +768,7 @@ const Header = () => {
                 </NavLink>
               </li> */}
 
-              <li className="nav-item d-none">
+              {/* <li className="nav-item d-none">
                 <NavLink
                   className="nav-link"
                   activeClassName="active"
@@ -864,19 +799,42 @@ const Header = () => {
                 >
                   My Counter
                 </NavLink>
-              </li>
+              </li> */}
 
-              <li className="nav-item online my-button">
-                <NavLink
-                  className="nav-link"
+            </ul>
+          </div>
+
+
+          <div class="nav-right-part nav-right-part-desktop">
+                    <button class="search-bar-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <button>
+                        <i class="fas fa-shopping-basket"></i>
+                    </button>
+                    <button>
+                        <i class="fas fa-heart"></i>
+                    </button>
+                    <NavLink
+                  className="btn my-button online"
                   activeClassName="active"
                   to="/contact"
                 >
-                  ONLINE ORDER
+                  Order Now <i class="fas fa-long-arrow-right"></i>
                 </NavLink>
-              </li>
-            </ul>
-          </div>
+               
+                    <div class="menu-sidebar">
+                        <button>
+                            <i class="fas fa-ellipsis-h"></i>
+                            <i class="fas fa-ellipsis-h"></i>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </button>
+                    </div>
+                </div>
+
+
+
+
         </div>
       </nav>
     </>

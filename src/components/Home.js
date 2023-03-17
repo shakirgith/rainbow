@@ -5,14 +5,124 @@ import { OwlTest } from "./OwlCarousel";
 const Home = () => {
   return (
     <>
+<div class="hero-area pt-145 pb-75 rel z-1">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="hero-content rmb-55 wow fadeInUp delay-0-2s animated">
+                            <span class="sub-title mb-15">Printing Comapny</span>
+                            <h1>We’re Pixel Perfect Printing Company</h1>
+                            <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled demoralized</p>
+                            <ul class="list-style-one pt-10 wow fadeInUp delay-0-3s animated p-0">
+                                <li>Quality Services Provider</li>
+                                <li>Printing, Designing and Transportation</li>
+                            </ul>
+                            <div class="hero-btns pt-25 wow fadeInUp delay-0-4s animated">
+                                <a href="team.html" class="theme-btn">Talk With Us <i class="fas fa-long-arrow-right"></i></a>
+                                <a href="contact.html" class="theme-btn style-three">Latest Projects <i class="fas fa-long-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="hero-images wow fadeInLeft delay-0-2s animated">
+                            <img class="w-100" src={"assets/images/hero-right.jpeg"} alt="Hero Image" />
+                            <img class="image-one wow fadeInRight delay-0-6s animated" src={"assets/images/hero-1.png"} alt="Hero Image" />
+                            <img class="image-two wow fadeInDown delay-0-8s animated" src={"assets/images/hero-2.png"} alt="Hero Image" />
+                            <div class="circle-shapes">
+                                <div class="shape-inner">
+                                    <span class="dot-one"></span>
+                                    <span class="dot-two"></span>
+                                    <span class="dot-three"></span>
+                                    <span class="dot-four"></span>
+                                    <span class="dot-five"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
       <Homeslider />
 
-      <section className="overview">
+      <section className="what-we-provide bgc-lighter pt-75">
         <div className="container">
 
 
         <div className="row mb-5">
+
+
+        <div className="col-sm-6 col-lg-3">
+                <div class="what-we-provide-item wow fadeInUp delay-0-2s slick-slide animated slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide50">
+                        <i class="flaticon-t-shirt"></i>
+                        <h6><a href="service-details.html" tabindex="0">T-Shart Print</a></h6>
+               </div>
+            </div>
+
+
+        <div className="col-sm-6 col-lg-3">
+        <div class="what-we-provide-item wow fadeInUp delay-0-3s slick-slide slick-cloned animated" data-slick-index="-6" id="" aria-hidden="true" tabindex="-1">
+                        <i class="flaticon-logo"></i>
+                        <h6><a href="service-details.html" tabindex="-1">Logo Design</a></h6>
+                    </div>
+            </div>
+
+
+
             <div className="col-sm-6 col-lg-3">
+            <div class="what-we-provide-item wow fadeInUp delay-0-4s slick-slide slick-cloned animated" data-slick-index="-5" id="" aria-hidden="true" tabindex="-1" >
+                        <i class="flaticon-banner"></i>
+                        <h6><a href="service-details.html" tabindex="-1">Banner Print</a></h6>
+                    </div>
+            </div>
+
+
+
+            <div className="col-sm-6 col-lg-3">
+            <div class="what-we-provide-item wow fadeInUp delay-0-5s slick-slide slick-cloned animated" data-slick-index="-4" id="" aria-hidden="true" tabindex="-1">
+                        <i class="flaticon-reading-book"></i>
+                        <h6><a href="service-details.html" tabindex="-1">Books Print</a></h6>
+                    </div>
+            </div>
+
+
+            <div className="col-sm-6 col-lg-3">
+            <div class="what-we-provide-item wow fadeInUp delay-0-6s slick-slide slick-cloned animated" data-slick-index="-3" id="" aria-hidden="true" tabindex="-1" >
+                        <i class="flaticon-debit-card"></i>
+                        <h6><a href="service-details.html" tabindex="-1">Card Print</a></h6>
+                    </div>
+            </div>
+
+
+            <div className="col-sm-6 col-lg-3">
+            <div class="what-we-provide-item wow fadeInUp delay-0-7s slick-slide slick-cloned animated" data-slick-index="-2" id="" aria-hidden="true" tabindex="-1" >
+                        <i class="flaticon-award"></i>
+                        <h6><a href="service-details.html" tabindex="-1">Trophy Print</a></h6>
+                    </div>
+            </div>
+
+
+            <div className="col-sm-6 col-lg-3">
+            <div class="what-we-provide-item wow fadeInUp delay-0-8s slick-slide slick-cloned animated" data-slick-index="-1" id="" aria-hidden="true" tabindex="-1" >
+                        <i class="flaticon-banner"></i>
+                        <h6><a href="service-details.html" tabindex="-1">Banner Print</a></h6>
+                    </div>
+            </div>
+
+            <div className="col-sm-6 col-lg-3">
+            <div class="what-we-provide-item wow fadeInUp delay-0-3s slick-slide animated slick-active" data-slick-index="1" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide51" >
+                        <i class="flaticon-logo"></i>
+                        <h6><a href="service-details.html" tabindex="0">Logo Design</a></h6>
+                    </div>
+            </div>
+
+
+
+
+
+
+            {/* <div className="col-sm-6 col-lg-3">
                 <div className="features red-color">
                   <div className="icon-circle"><img className="img-icon" src={"assets/images/svgs/regular/user.svg"} alt="icon" /> </div>
                   <h3>The Lowest Cost of Printing </h3>
@@ -42,13 +152,15 @@ const Home = () => {
                   <h3>Fast & Free Delivery</h3>
                   <p>Curabitur eget turpis iaculis eleifend. Curabitur consectetur fermentum ante</p>
                 </div>
-            </div>
+            </div> */}
 
 
 
           </div>
-        
-
+          </div>
+          </section>
+          <section className="overview">
+          <div className="container">
           <div className="row g-lg-5 g-md-5">
           <div className="col-sm-12 col-lg-6">
               <img
