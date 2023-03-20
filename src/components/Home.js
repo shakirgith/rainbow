@@ -1,4 +1,5 @@
 import React from "react";
+import { CategorySlider } from "./CategorySlider";
 import { Homeslider } from "./Homeslider";
 import { OwlTest } from "./OwlCarousel";
 
@@ -50,9 +51,11 @@ const Home = () => {
         <div className="container">
 
 
-        <div className="row mb-5">
+        <div className="mb-5">
 
+        <CategorySlider />
 
+{/* 
         <div className="col-sm-6 col-lg-3">
                 <div class="what-we-provide-item wow fadeInUp delay-0-2s slick-slide animated slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide50">
                         <i class="flaticon-t-shirt"></i>
@@ -115,7 +118,7 @@ const Home = () => {
                         <i class="flaticon-logo"></i>
                         <h6><a href="service-details.html" tabindex="0">Logo Design</a></h6>
                     </div>
-            </div>
+            </div> */}
 
 
 
