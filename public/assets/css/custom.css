@@ -4678,6 +4678,10 @@ h1, h2, h3, h4, h5, h6, .tab-btns-one .nav-link .title {
 /*******************************************************/
 /******************  12. Services Area *****************/
 /*******************************************************/
+.services-area {position: relative;}
+
+
+
 @media only screen and (min-width: 1600px) {
   .services-area {
     padding-left: 55px;

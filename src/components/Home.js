@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import { CategorySlider } from "./CategorySlider";
 import { Homeslider } from "./Homeslider";
 import { OwlTest } from "./OwlCarousel";
@@ -19,8 +20,8 @@ const Home = () => {
                                 <li>Printing, Designing and Transportation</li>
                             </ul>
                             <div class="hero-btns pt-25 wow fadeInUp delay-0-4s animated">
-                                <a href="team.html" class="theme-btn">Talk With Us <i class="fas fa-long-arrow-right"></i></a>
-                                <a href="contact.html" class="theme-btn style-three">Latest Projects <i class="fas fa-long-arrow-right"></i></a>
+                            <NavLink to="/contact" className="theme-btn my-button">Talk With Us <i class="fas fa-long-arrow-right"></i></NavLink>
+
                             </div>
                         </div>
                     </div>
@@ -50,118 +51,30 @@ const Home = () => {
       <section className="what-we-provide bgc-lighter pt-75">
         <div className="container">
 
+        <div className="heading text-center">
+                <span className="subtitle d-block text-center">What We Provide</span>
+                <h2>
+                Best Category <span> For Printing</span>
+                </h2>
+                <span className="dot1"></span> <span className="dot1"></span>
+                <span className="dot1"></span>
+                <span className="dot"></span>
+              </div>
 
-        <div className="mb-5">
+        
+
+
+        <div className="mb-0">
 
         <CategorySlider />
-
-{/* 
-        <div className="col-sm-6 col-lg-3">
-                <div class="what-we-provide-item wow fadeInUp delay-0-2s slick-slide animated slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide50">
-                        <i class="flaticon-t-shirt"></i>
-                        <h6><a href="service-details.html" tabindex="0">T-Shart Print</a></h6>
-               </div>
-            </div>
-
-
-        <div className="col-sm-6 col-lg-3">
-        <div class="what-we-provide-item wow fadeInUp delay-0-3s slick-slide slick-cloned animated" data-slick-index="-6" id="" aria-hidden="true" tabindex="-1">
-                        <i class="flaticon-logo"></i>
-                        <h6><a href="service-details.html" tabindex="-1">Logo Design</a></h6>
-                    </div>
-            </div>
-
-
-
-            <div className="col-sm-6 col-lg-3">
-            <div class="what-we-provide-item wow fadeInUp delay-0-4s slick-slide slick-cloned animated" data-slick-index="-5" id="" aria-hidden="true" tabindex="-1" >
-                        <i class="flaticon-banner"></i>
-                        <h6><a href="service-details.html" tabindex="-1">Banner Print</a></h6>
-                    </div>
-            </div>
-
-
-
-            <div className="col-sm-6 col-lg-3">
-            <div class="what-we-provide-item wow fadeInUp delay-0-5s slick-slide slick-cloned animated" data-slick-index="-4" id="" aria-hidden="true" tabindex="-1">
-                        <i class="flaticon-reading-book"></i>
-                        <h6><a href="service-details.html" tabindex="-1">Books Print</a></h6>
-                    </div>
-            </div>
-
-
-            <div className="col-sm-6 col-lg-3">
-            <div class="what-we-provide-item wow fadeInUp delay-0-6s slick-slide slick-cloned animated" data-slick-index="-3" id="" aria-hidden="true" tabindex="-1" >
-                        <i class="flaticon-debit-card"></i>
-                        <h6><a href="service-details.html" tabindex="-1">Card Print</a></h6>
-                    </div>
-            </div>
-
-
-            <div className="col-sm-6 col-lg-3">
-            <div class="what-we-provide-item wow fadeInUp delay-0-7s slick-slide slick-cloned animated" data-slick-index="-2" id="" aria-hidden="true" tabindex="-1" >
-                        <i class="flaticon-award"></i>
-                        <h6><a href="service-details.html" tabindex="-1">Trophy Print</a></h6>
-                    </div>
-            </div>
-
-
-            <div className="col-sm-6 col-lg-3">
-            <div class="what-we-provide-item wow fadeInUp delay-0-8s slick-slide slick-cloned animated" data-slick-index="-1" id="" aria-hidden="true" tabindex="-1" >
-                        <i class="flaticon-banner"></i>
-                        <h6><a href="service-details.html" tabindex="-1">Banner Print</a></h6>
-                    </div>
-            </div>
-
-            <div className="col-sm-6 col-lg-3">
-            <div class="what-we-provide-item wow fadeInUp delay-0-3s slick-slide animated slick-active" data-slick-index="1" aria-hidden="false" tabindex="-1" role="option" aria-describedby="slick-slide51" >
-                        <i class="flaticon-logo"></i>
-                        <h6><a href="service-details.html" tabindex="0">Logo Design</a></h6>
-                    </div>
-            </div> */}
-
-
-
-
-
-
-            {/* <div className="col-sm-6 col-lg-3">
-                <div className="features red-color">
-                  <div className="icon-circle"><img className="img-icon" src={"assets/images/svgs/regular/user.svg"} alt="icon" /> </div>
-                  <h3>The Lowest Cost of Printing </h3>
-                  <p>Curabitur eget turpis iaculis eleifend. Curabitur consectetur fermentum ante</p>
-                </div>
-            </div>
-
-            <div className="col-sm-6 col-lg-3">
-                <div className="features perple-color">
-                  <div className="icon-circle"><img className="img-icon" src={"assets/images/svgs/regular/user.svg"} alt="icon" /> </div>
-                  <h3>Graphic Designers</h3>
-                  <p>A great marketing plan combined with an effective print design are the secret to your success. Our Creative Designers are top-level experts when it comes to marketing to homeowners for HVAC, plumbing and electrical services.</p>
-                </div>
-            </div>
-
-            <div className="col-sm-6 col-lg-3">
-                <div className="features yellow-color">
-                  <div className="icon-circle"><img className="img-icon" src={"assets/images/svgs/regular/user.svg"} alt="icon" /> </div>
-                  <h3>High Resolution Grade Quality</h3>
-                  <p>Curabitur eget turpis iaculis eleifend. Curabitur consectetur fermentum ante</p>
-                </div>
-            </div>
-
-            <div className="col-sm-6 col-lg-3">
-                <div className="features teal-color">
-                  <div className="icon-circle"><img className="img-icon" src={"assets/images/svgs/regular/user.svg"} alt="icon" /> </div>
-                  <h3>Fast & Free Delivery</h3>
-                  <p>Curabitur eget turpis iaculis eleifend. Curabitur consectetur fermentum ante</p>
-                </div>
-            </div> */}
 
 
 
           </div>
           </div>
           </section>
+
+
           <section className="overview">
           <div className="container">
           <div className="row g-lg-5 g-md-5">
@@ -210,9 +123,9 @@ const Home = () => {
 
 
 
-      <section className="offerby">
+      <section className="offerby services-area">
           <div className="container">
-              <div className="row">
+              {/* <div className="row">
               <div className="col-sm-6 col-lg-3">
                   <div className="heading">
                     <span className="subtitle">Our Services</span>
@@ -278,8 +191,88 @@ const Home = () => {
                     </div>
                 </div>
 
-              </div>
+              </div> */}
 
+                <div class="services-inner text-white bgc-black">
+                    <div class="row align-items-center">
+                        <div class="col-xl-4 col-lg-7">
+                     
+
+                            <div class="service-content position-relative p-100 py-130 rpb-100 wow fadeInUp delay-0-2s animated">
+                            <div className="heading">
+                              <span className="subtitle">Our Services</span>
+                              <h2 className="text-white">
+                                Most Popular <br />
+                                <span>Printing</span>
+                              </h2>
+                              <span className="dot1"></span> <span className="dot1"></span>
+                              <span className="dot1"></span>
+                              <span className="dot"></span>
+                            </div>
+                                <p className="text-white">At The Rainbow Print, we will implement quality procedure at every stage - from the inception of design to delivery, making sure that everything is perfect!</p>
+                                <NavLink to="/services" className="theme-btn hover-two mt-20 my-button">Learn More <i class="fas fa-long-arrow-right"></i></NavLink>
+                                <div class="circle-shapes no-animation">
+                                    <div class="shape-inner">
+                                        <span class="dot-one"></span>
+                                        <span class="dot-two"></span>
+                                        <span class="dot-three"></span>
+                                        <span class="dot-four"></span>
+                                        <span class="dot-five"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-8">
+                            <div class="row no-gap">
+                                <div class="col-md-6">
+                                    <div class="service-item wow fadeInDown delay-0-4s animated">
+                                        <div class="icon">
+                                            <i class="flaticon-print"></i>
+                                        </div>
+                                        <h3>Printing Services</h3>
+                                        <p>Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque</p>
+                                        <NavLink to="/services"  className="read-more">Read More <i class="fas fa-long-arrow-right"></i></NavLink>
+                                        <div className="bg-image"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="service-item wow fadeInDown delay-0-4s animated">
+                                        <div class="icon">
+                                            <i class="flaticon-3d-printer"></i>
+                                        </div>
+                                        <h3>3D Printing Service</h3>
+                                        <p>On the other hand, we denounce with rigteous indignation and dislike demoralized</p>
+                                        <NavLink to="/services"  className="read-more">Read More <i class="fas fa-long-arrow-right"></i></NavLink>
+                                        <div className="bg-image"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="service-item wow fadeInUp delay-0-6s animated">
+                                        <div class="icon">
+                                            <i class="flaticon-print-1"></i>
+                                        </div>
+                                        <h3>Offest Printing</h3>
+                                        <p>Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque</p>
+                                        <NavLink to="/services"  className="read-more">Read More <i class="fas fa-long-arrow-right"></i></NavLink>
+                                        <div className="bg-image"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="service-item wow fadeInUp delay-0-6s animated">
+                                        <div class="icon">
+                                            <i class="flaticon-focus"></i>
+                                        </div>
+                                        <h3>Design &amp; Branding</h3>
+                                        <p>On the other hand, we denounce with rigteous indignation and dislike demoralized</p>
+                                        <NavLink to="/services" className="read-more">Read More <i class="fas fa-long-arrow-right"></i></NavLink>
+                                        <div className="bg-image"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+       
 
 
           </div>
