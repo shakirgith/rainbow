@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { CategorySlider } from "./CategorySlider";
 import { Homeslider } from "./Homeslider";
-import { OwlTest } from "./OwlCarousel";
+import { OwlTestimonial } from "./Testimonial";
 
 const Home = () => {
   return (
@@ -363,7 +363,7 @@ const Home = () => {
 
               <div className="heading text-center">
                 <span className="subtitle">Testimonial</span>
-                <h2 className="text-white">
+                <h2>
                 What They 
                   <span> Say</span>
                 </h2>
@@ -373,7 +373,23 @@ const Home = () => {
               </div>
 
             <div className="testwrap text-center">
-            <OwlTest />
+            <OwlTestimonial />
+            </div>
+
+            <div className="client-pic">
+              <img className="img-fluid" src={"assets/images/testi-avatar-1.jpeg"} alt="testimonial image" /> 
+            </div>
+            <div className="client-pic2">
+            <img className="img-fluid" src={"assets/images/testi-avatar-2.jpeg"} alt="testimonial image" /> 
+            </div>
+            <div className="client-pic3">
+            <img className="img-fluid" src={"assets/images/testi-avatar-3.jpeg"} alt="testimonial image" /> 
+            </div>
+            <div className="client-pic4">
+            <img className="img-fluid" src={"assets/images/testi-avatar-4.jpeg"} alt="testimonial image" /> 
+            </div>
+            <div className="client-pic5">
+            <img className="img-fluid" src={"assets/images/testi-avatar-5.jpeg"} alt="testimonial image" /> 
             </div>
         </div>
       </section>
