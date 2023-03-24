@@ -1,8 +1,8 @@
 {
-  "name": "the-rainbow-print",
+  "name": "rainbow",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shakirgith.github.io/the-rainbow-print"
+  "homepage": "https://shakirgith.github.io/rainbow"
   "dependencies": {
     "@auth0/auth0-react": "^1.12.1",
     "@emailjs/browser": "^3.10.0",
